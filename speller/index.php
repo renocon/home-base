@@ -14,18 +14,21 @@
 </head>
 <body>
     <div class='col-md-6'><input type="textarea" id='text_input'/>
-    <button id = 'submit'>Submit</button>
+    <button id = 'submit' class='btn-default'>Submit</button>
     </div><div class='col-md-6' id='answer'></div>
     <script type="text/javascript">
     
         function map(item){
-            $('#answer').append('<div>'+ item['word'] +' - ' + item['count'] + '</div>');
+            $('#answer').append('<div>'+ item['word'] +': ' + item['count'] + '</div>');
         }
         /* global $ */
         $('#submit').click(function(e){
-            $.post('runner/processor.php',$('#textarea').val(),function(data,status,jq){
+            console.log('request sent');
+            console.log($('#text_input').val());
+            $.post('runner/processor.php',{'text_input':$('#text_input').val()},function(data){
+                console.log(data);
                 $('#answer').empty();
-                for(var x = 0; x < 0; x++){
+                for(var x = 0; x < data.length; x++){
                     map(data[x]);
                 }
             },'json');

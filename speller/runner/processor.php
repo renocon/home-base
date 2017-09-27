@@ -1,43 +1,60 @@
 <?php
-    $text = $POST['text_input'];
-    
+    $text = $_POST['text_input'];
     $bt_head = null;
     
     $words = explode(' ',$text);
+    //echo $text;
+    //echo $words;
+    //echo json_encode($words);
+    //die;
     
-    function create_node($w){
-        return ['word'=>$w,'count'=>1,'left'=>null,'right'=>null];
+    function create_node($w,$id){
+        return ['word'=>$w,'count'=>1,'left'=>null,'right'=>null,'id'=>$id];
     }
     
+    $id = 1;
     foreach ($words as $word){
         if ($bt_head == null){
-            $bt_head = create_node($word);
+            $bt_head = create_node($word,$id++);
+            
         }else {
-            $current_node = $bt_head;
+            $current_node = &$bt_head;
             while(true){
                 $cmp = strcmp($current_node['word'], $word);
-                if( $cmp > 0 ) {
+                //echo $cmp.'...';
+                if( $cmp < 0 ) {
                     if ($current_node['right'] == null){
-                        $current_node['right'] = create_function($word);
-                        break;
+                        $current_node['right'] = create_node($word,$id++);
+                  //      echo $word.' right<br>';
+                       break;
                     }
-                    else $current_node = $current_node['right'];
+                    else {
+                        $current_node = &$current_node['right'];
+                    //    echo $word.' move right<br>';
+                    //    continue;
+                    }
                 } 
-                elseif ($cmp < 0){
+                elseif ($cmp > 0){
                     if ($current_node['left'] == null){
-                        $current_node['left'] = create_function($word);
+                        $current_node['left'] = create_node($word,$id++);
+                      //  echo $word.' left '.json_encode($current_node['left']).'<br>';
                         break;
                     }
-                    else $current_node = $current_node['left'];
-                    continue;
+                    else {
+                        $current_node = &$current_node['left'];
+                        //echo $word.' move left<br>';
+                        //continue;
+                    }
                 }else {
-                    $current_node['count'] += 1;
+                    $current_node['count'] = $current_node['count'] + 1;
+                    //echo $word.' inc<br>';
                     break;
                 }
             }
         }
     }
     
+    //echo '{'.$id.'}';
     $result = array();
     
     function line($node){
@@ -47,10 +64,12 @@
         }
         
         line($node['left']);
-        array_push($result,['word'=>$node['word'],'count'=>$node['count']]);
+        array_push($result,['id'=>$node['id'],'word'=>$node['word'],'count'=>$node['count']]);
         line($node['right']);
     }
     
+    //echo json_encode($bt_head).'<br>';
     line($bt_head);
     
-    return json_encode($result);
+    echo json_encode($result);//.'<br>';
+    // print_r($bt_head);
