@@ -13,13 +13,25 @@
       crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class='col-md-6'><input type="textarea" id='text_input'/>
-    <button id = 'submit' class='btn-default'>Submit</button>
-    </div><div class='col-md-6' id='answer'></div>
+    <div class='col-md-6'>
+        <div><button id = 'submit' class='btn btn-default'>Submit</button></div>
+        <div><input type="textarea" id='text_input' class='col-xs-12'/></div>
+    
+    </div><div class='col-md-6'>
+        <table class='table table-striped table-repsonsive'>
+            <thead>
+                <th>Word</th>
+                <th>Count</th>
+            </thead>
+            <tbody id='answer'>
+                
+            </tbody>
+        </table>
+    </div>
     <script type="text/javascript">
     
         function map(item){
-            $('#answer').append('<div>'+ item['word'] +': ' + item['count'] + '</div>');
+            $('#answer').append('<tr><td>'+ item['word'] +'</td><td>' + item['count'] + '</td>');
         }
         /* global $ */
         $('#submit').click(function(e){

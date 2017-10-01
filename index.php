@@ -262,7 +262,7 @@
                     </h4>
                     <p></p>
                     <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i></li>
+                        <!--<li><i class="fa fa-phone fa-fw"></i></li>-->
                         <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:warrenoconnell22@gmail.com">warrenoconnell22@gmail.com</a>
                         </li>
                     </ul>
