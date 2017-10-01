@@ -68,6 +68,8 @@
             <h1>Renocon Base</h1>
             <h3></h3>
             <br>
+            <a href="/speller" class="btn btn-dark btn-lg">Spell Checker</a>
+            <br><br>
             <a href="/gui" class="btn btn-dark btn-lg">3D Model Viewer/Editor</a>
             <br><br>
             <a href="/viz1/newviz.php" class="btn btn-dark btn-lg">D3 Advanced Visualization: Disability Data</a>
@@ -261,23 +263,23 @@
                     <p></p>
                     <ul class="list-unstyled">
                         <li><i class="fa fa-phone fa-fw"></i></li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:warren.o@icloud.com">warren.o@icloud.com</a>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:warrenoconnell22@gmail.com">warren.o@icloud.com</a>
                         </li>
                     </ul>
                     <br>
                     <ul class="list-inline">
                         <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                            <a href="https://tt.linkedin.com/in/renocon"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                            <a href="https://github.com/renocon"><i class="fa fa-github fa-fw fa-3x"></i></a>
                         </li>
                         <!--<li>
                             <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
                         </li>-->
                     </ul>
                     <hr class="small">
-                    <p class="text-muted">Copyright &copy; Renocon 2015</p>
+                    <p class="text-muted">Copyright &copy; Renocon 2017</p>
                 </div>
             </div>
         </div>
