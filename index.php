@@ -68,9 +68,11 @@
             <h1>Renocon Base</h1>
             <h3></h3>
             <br>
-            <a href="/speller" class="btn btn-dark btn-lg">Spell Checker</a>
-            <br><br>
-            <a href="/gui" class="btn btn-dark btn-lg">3D Model Viewer/Editor</a>
+            <a href="/AgriCalc" class="btn btn-dark btn-lg">AgriCalc</a>
+            <!--<br><br>
+            <a href="/gui" class="btn btn-dark btn-lg">3D Model Viewer/Editor</a>-->
+            <!--<br><br>
+            <a href="/gui" class="btn btn-dark btn-lg">3D Model Viewer/Editor</a>-->
             <br><br>
             <a href="/viz1/newviz.php" class="btn btn-dark btn-lg">D3 Advanced Visualization: Disability Data</a>
             <br><br>
@@ -84,6 +86,7 @@
             <br><br>
             <a href="/canvas-exp" class="btn btn-dark btn-lg">JS: Slider</a>
             <br><br>
+            <a href="/speller" class="btn btn-dark btn-lg">Spell Checker</a>
             <!--<a href="/three-tut" class="btn btn-dark btn-lg">ThreeJS 3D WebGL</a>-->
         </div>
     </header>
