@@ -73,8 +73,8 @@
             <a href="/gui" class="btn btn-dark btn-lg">3D Model Viewer/Editor</a>-->
             <!--<br><br>
             <a href="/gui" class="btn btn-dark btn-lg">3D Model Viewer/Editor</a>-->
-            <br><br>
-            <a href="/viz1/newviz.php" class="btn btn-dark btn-lg">D3 Advanced Visualization: Disability Data</a>
+            <!--<br><br>
+            <a href="/viz1/newviz.php" class="btn btn-dark btn-lg">D3 Advanced Visualization: Disability Data</a>-->
             <br><br>
             <a href="/viz1/viz2.php" class="btn btn-dark btn-lg">D3 Advanced Visualization: Diabetes Data</a>
             <br><br>
