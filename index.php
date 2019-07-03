@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Renocon: The Base</title>
+    <title>Warren O'Connell</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -65,7 +65,7 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1>Renocon Base</h1>
+            <h1>Warren O'Connell</h1>
             <h3></h3>
             <br>
             <!--<a href="/AgriCalc" class="btn btn-dark btn-lg">AgriCalc</a>-->
@@ -263,7 +263,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Renocon</strong>
+                    <h4><strong>Warren O'Connell</strong>
                     </h4>
                     <p></p>
                     <ul class="list-unstyled">
@@ -284,7 +284,7 @@
                         </li>-->
                     </ul>
                     <hr class="small">
-                    <p class="text-muted">Copyright &copy; Renocon 2017</p>
+                    <p class="text-muted">Copyright &copy; Warren O'Connell 2019</p>
                 </div>
             </div>
         </div>
