@@ -68,7 +68,7 @@
             <h1>Renocon Base</h1>
             <h3></h3>
             <br>
-            <a href="/AgriCalc" class="btn btn-dark btn-lg">AgriCalc</a>
+            <!--<a href="/AgriCalc" class="btn btn-dark btn-lg">AgriCalc</a>-->
             <!--<br><br>
             <a href="/gui" class="btn btn-dark btn-lg">3D Model Viewer/Editor</a>-->
             <!--<br><br>
@@ -80,13 +80,15 @@
             <br><br>
             <a href="/brain" class="btn btn-dark btn-lg">Leap Motion: Brain Explorer</a>
             <br><br>
-            <a href="/pong" class="btn btn-dark btn-lg">JS: Pong</a>
+            <a href="www.skedonline.com" class="btn btn-dark btn-lg">SKED</a>
             <br><br>
-            <a href="/collect" class="btn btn-dark btn-lg">Unity WebGL: Collect</a>
+            <!--<a href="/pong" class="btn btn-dark btn-lg">JS: Pong</a>
+            <br><br>-->
+            <!--<a href="/collect" class="btn btn-dark btn-lg">Unity WebGL: Collect</a>
             <br><br>
-            <a href="/canvas-exp" class="btn btn-dark btn-lg">JS: Slider</a>
-            <br><br>
-            <a href="/speller" class="btn btn-dark btn-lg">Spell Checker</a>
+            <a href="/canvas-exp" class="btn btn-dark btn-lg">JS: Slider</a>-->
+            <!--<br><br>
+            <a href="/speller" class="btn btn-dark btn-lg">Spell Checker</a> -->
             <!--<a href="/three-tut" class="btn btn-dark btn-lg">ThreeJS 3D WebGL</a>-->
         </div>
     </header>
