@@ -80,7 +80,7 @@
             <br><br>
             <a href="/brain" class="btn btn-dark btn-lg">Leap Motion: Brain Explorer</a>
             <br><br>
-            <a href="www.skedonline.com" class="btn btn-dark btn-lg">SKED</a>
+            <a href="https://www.skedonline.com" class="btn btn-dark btn-lg">SKED</a>
             <br><br>
             <!--<a href="/pong" class="btn btn-dark btn-lg">JS: Pong</a>
             <br><br>-->
